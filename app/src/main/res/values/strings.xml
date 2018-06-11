@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Pomocnik rowerzysty</string>
+    <string name="others">Others</string>
+    <string name="routes">Routes</string>
+    <string name="profile">Profile</string>
+    <string name="welcome_user">Welcome, User</string>
+    <string name="your_statistics">Your statistics</string>
+    <string name="new_route">New route</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="pesel">Pesel</string>
+    <string name="password">Password</string>
+    <string name="touch_to_say_something">Touch to say something</string>
+    <string name="pomocnik_rowerzysty">Pomocnik rowerzysty</string>
+    <string name="selected_place">Last Selected Place:</string>
+    <string name="place_details">
+    <![CDATA[
+        <b>%1$s</b>
+        <br/>
+        Address: %2$s
+        <br/>
+        Phone: %3$s
+        <br/>
+        Website: %4$s
+    ]]>
+    </string>
+    <string name="place_details_no_website">
+    <![CDATA[
+        <b>%1$s</b>
+        <br/>
+        Address: %2$s
+        <br/>
+        Phone: %3$s
+    ]]>
+    </string>
+    <string name="place_details_no_website_no_phone">
+    <![CDATA[
+        <b>%1$s</b>
+        <br/>
+        Address: %2$s
+    ]]>
+    </string>
+    <string name="place_details_no_phone">
+    <![CDATA[
+        <b>%1$s</b>
+        <br/>
+        Address: %2$s
+        <br/>
+        Website: %3$s
+    ]]>
+    </string>
+    <string name="title_activity_create_widok">CreateWidok</string>
+</resources>

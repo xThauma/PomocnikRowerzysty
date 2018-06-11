@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="kamil.packahe.Profile">
+
+    <Button
+        android:id="@+id/profileNewRouteButton"
+        style="@style/CasualBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="#00eb00"
+        android:onClick="newRouteButtonClick"
+        android:padding="12dp"
+        android:text="@string/new_route" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/logoutBTN"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Log out" />
+
+        <Button
+            android:id="@+id/profileProfileButton"
+            style="@style/InactiveNavigationButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:onClick="profileNavigationClick"
+            android:text="@string/profile" />
+
+        <Button
+            android:id="@+id/profileRoutesButton"
+            style="@style/ActiveNavigationButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:onClick="profileNavigationClick"
+            android:text="@string/routes" />
+
+        <Button
+            android:id="@+id/profileOthersButton"
+            style="@style/ActiveNavigationButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:onClick="profileNavigationClick"
+            android:text="@string/others" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/profileUsernameTextView"
+        style="@style/CasualBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="@string/welcome_user"
+        android:textSize="28sp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/exampleusericon" />
+
+    <TextView
+        android:id="@+id/profileStatsTextView"
+        style="@style/CasualBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="@string/your_statistics"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/profileUserStats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16sp" />
+
+
+
+</LinearLayout>

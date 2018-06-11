@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="kamil.packahe.Others">
+
+
+    <Button
+        android:id="@+id/othersNewRouteButton"
+        style="@style/CasualBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="#00eb00"
+        android:onClick="newRouteButtonClick"
+        android:padding="12dp"
+        android:text="@string/new_route" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/othersProfileButton"
+            style="@style/ActiveNavigationButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:onClick="othersNavigationClick"
+            android:text="Profile" />
+
+        <Button
+            android:id="@+id/othersRoutesButton"
+            style="@style/ActiveNavigationButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:onClick="othersNavigationClick"
+            android:text="Routes" />
+
+        <Button
+            android:id="@+id/othersOthersButton"
+            style="@style/InactiveNavigationButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:onClick="othersNavigationClick"
+            android:text="Others" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/myRoutesListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+    </ListView>
+
+</LinearLayout>

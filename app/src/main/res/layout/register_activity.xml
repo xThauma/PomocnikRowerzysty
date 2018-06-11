@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:text="First name:"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/first_name_registerET"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:maxLength="15"
+                android:textSize="25sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:text="Surname:"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/surname_registerET"
+                android:layout_width="150dp"
+                android:maxLength="15"
+                android:layout_height="wrap_content"
+                android:textSize="25sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:text="Pesel:"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/pesel_registerET"
+                android:layout_width="150dp"
+                android:maxLength="11"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textSize="25sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textViewPassword"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:text="Password:"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/password_registerET"
+                android:layout_width="150dp"
+                android:inputType="textPassword"
+                android:layout_height="wrap_content"
+                android:textSize="25sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:text="E-mail:"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/email_registerET"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textSize="25sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:text="Phone number:"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/phone_registerET"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:maxLength="10"
+                android:inputType="number"
+                android:textSize="25sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/registerBTN"
+                android:text="Register"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/register_finishBTN"
+                android:text="Cancel"
+                android:textSize="25sp" />
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+</ScrollView>

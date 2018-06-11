@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp">
+
+    <EditText
+        android:id="@+id/username_loginET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_person_black_24dp"
+        android:hint="@string/pesel" />
+
+    <EditText
+        android:id="@+id/password_loginET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username_loginET"
+        android:drawableStart="@drawable/ic_lock_black_24dp"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+    d
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password_loginET"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/loginBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Login" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/register_loginBTN"
+            android:layout_weight="1"
+            android:text="Register" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/bottomLayoutLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password_loginET"
+        android:layout_marginTop="50dp"
+        android:gravity="right">
+
+        <ImageButton
+            android:id="@+id/changeLenToPl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:src="@drawable/poland_flag" />
+
+        <ImageButton
+            android:id="@+id/changeLenToEng"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:src="@drawable/england_flag" />
+    </LinearLayout>
+
+
+</RelativeLayout>
